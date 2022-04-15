@@ -85,7 +85,7 @@ body{
         font-family: 'Oswald', sans-serif;
         color: white;
         margin-top: 150px;
-        font-size: 70px;
+        font-size: 50px;
      }
     body{
         display: flex;
@@ -104,16 +104,16 @@ body{
         left: 0vw;
     }
     .links{
-        margin: 15px;
+        margin: 5px;
         text-decoration: none;
         color: black;
         border-radius: 12px;
         text-align: center;
-        font-size: 60px;
+        font-size: 50px;
         overflow: visible;
         font-family: 'Oswald', sans-serif;
         opacity: 0.6;
-        padding: 20px 0;
+        padding: 10px 0;
         width: 90vw;
         
     }
