@@ -77,20 +77,21 @@ body{
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.5em;
-}
-@media(max-width:700px){
+}@media(max-width:700px){
     #choice{
         text-align: center;
         margin:auto;
         font-family: 'Oswald', sans-serif;
         color: white;
-        margin-top: 150px;
+        margin-top: 50px;
         font-size: 50px;
      }
     body{
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow-y: scroll;
+
     }
     #linkbox{
         text-align: center;
@@ -98,7 +99,7 @@ body{
         flex-direction: column;
         height: 200px;
         width: 200px;
-        margin: 250px 0 150px 15px;
+        margin: 150px 0 150px 15px;
         /* position: relative; */
         top: 0vh;
         left: 0vw;
