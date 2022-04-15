@@ -79,28 +79,42 @@ body{
     font-size: 1.5em;
 }
 @media(max-width:700px){
-    linkbox{
+    #choice{
         text-align: center;
-        display: grid;
-        grid-template-columns: repeat(2,100px);
-        grid-template-rows: repeat(2,100px);
+        margin:auto;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        margin-top: 100px;
+        font-size: 40px;
+     }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #linkbox{
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
         height: 200px;
         width: 200px;
-        margin: auto;
-        position: absolute;
-        top: 20vh;
-        left: 37vw;
+        margin: 125px 0 150px 15px;
+        /* position: relative; */
+        top: 0vh;
+        left: 0vw;
     }
     .links{
-        margin: 8px;
+        margin: 5px;
         text-decoration: none;
         color: black;
         border-radius: 12px;
         text-align: center;
         font-size: 35px;
-        overflow: hidden;
+        overflow: visible;
         font-family: 'Oswald', sans-serif;
         opacity: 0.6;
-        padding-top: 55px;
+        padding: 10px 0;
+        width: 90vw;
+        
     }
 }
