@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@100;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+#header{
+    background-color: rgba(235, 239, 29, 0.934);
+}
+#choice{
+   text-align: center;
+   margin:auto;
+   font-family: 'Oswald', sans-serif;
+   color: white;
+   margin-top: px;
+   font-size: 60px;
+}
+#navbar{
+    text-decoration: none;
+    height: 3vw;
+}
+#linkbox{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,200px);
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    position: absolute;
+    top: 20vh;
+    left: 37vw;
+}
+.links{
+    margin: 8px;
+    text-decoration: none;
+    color: black;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 35px;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+    opacity: 0.6;
+    padding-top: 55px;
+}
+#IFC-A{
+    background-color: #B6FFCE;     
+}
+#IFC-B{
+    background-color: #F6FFA4;
+}
+#IFC-C{
+    background-color: #FDD7AA;
+}
+#priyadarshini{
+    background-color: #FFA8A8;
+}
+#linkbox .links {
+    position: relative;
+    top: 50px;
+    text-decoration: none;
+    color: black;
+}
+#linkbox .links:hover{
+    opacity: 1;
+}
+#time{
+    position: absolute;
+    top: 5.5vh;
+    right: 2vw;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5em;
+}

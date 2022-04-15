@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    opacity: 0.9;
+    transition: 400ms all ease;
+}
+header:hover{
+    opacity: 1;
+}
+header #logo a img{
+    height: 70px;
+    width: 70px;
+}
+#logo{
+    margin-left: 100px;
+}
+#heading{
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    margin: 3px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight:lighter;
+    margin: 8px;
+    transition: 0.5s all ease;
+}
+header nav{
+    margin-right: 200px;
+    /* background-color: red; */
+}
+header nav a:hover{
+    color: yellow;
+
+}
+.yellow{
+    color: yellow;
+}
+.green{
+
+    color: rgb(0, 248, 0);
+}
+/* input[type=radio]{
+    color: red;
+} */
+#scrollmenu{
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+/* @keyframes ghumao {
+    from { transform: rotate(0deg); }
+    
+    to{ transform: rotate(360deg); }
+}
+#thali1 img{
+    height: 80px;
+    position: absolute;
+    top: 1vh;
+    right: 5vw;
+    transition: 1s all ;
+    animation-duration: 10s;
+    animation-name: ghumao;
+    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+} */
+
+#time{
+    position: absolute;
+    top: 5vh;
+    right: 2vw;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5em;
+    opacity: 0.8;
+}
+/* 
+#Breakfast .btns{
+    
+}
+#Lunch .btns{
+    
+}
+#Dinner .btns{
+    
+} */
+
+.meals .btns{
+    background-color: rgba(255, 255, 0, 0.11);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 15px;
+    border-radius: 5px;   
+}
+.meals .btns:hover{
+    background-color:  rgb(255, 255, 0);
+
+}
+.meals{
+    margin: 20px 30px;
+}
+#paysection{
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2c94c;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: bisque;
+    position: relative;
+    /* top: ; */
+    left: 35%;
+    width: 400px;
+}
+input[type=text]{
+margin: 10px;
+width: 20%;
+font-family: 'Oswald', sans-serif;
+background-color: azure;
+border-radius: 6px;
+
+}
+.rows{
+    height: 0px;
+    width: 100%;
+    /* background-color: cyan; */
+    overflow-x: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all; 
+    /* overflow-y: hidden; */
+}
+.fooditems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+}
+.foodlabels{
+    display: inline;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.foodimages{
+    display: inline;
+    border-radius: 4px;
+    height: 200px;
+    width: 350px;
+    /* margin-top: 6px; */
+}
+.traffic{
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.red{
+    padding: 4px 10px;
+    background-color: red;
+    border-radius: 4px;
+    margin-left: 4px;
+}
+.yellow{
+    padding: 4px 10px;
+    background-color: rgb(186, 186, 0);
+    border-radius: 4px;
+    margin-left: 4px;
+}
+.green1{
+    padding: 4px 10px;
+    background-color: rgb(0, 255, 0);
+    border-radius: 4px;
+    margin-left: 4px;
+}
+.pink1{
+    padding: 4px 10px;
+    background-color: rgb(250, 121, 142);
+    border-radius: 4px;
+    margin-left: 4px;
+}
+#head{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.timefont{
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess - IFC-A</title>
+    <link rel="shortcut icon" href="/img/policestationlogoblack.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/commonstyles.css">
+</head>
+<body>
+  <header>
+    <div id="logo">  
+      <a href="/index.html"><img src="/img/policestationlogo.png" alt=""></a>
+      <div id="time"></div>
+
+    </div>
+
+    <nav> 
+        <a href="/webpages/ifc-a.html" class="links">IFC-A</a>
+        <a href="/webpages/ifc-b.html" class="links">IFC-B</a>
+        <a href="/webpages/ifc-c.html" class="links">IFC-C</a>
+        <a href="/webpages/priyadarshini.html" class="links">Priyadarshini</a>
+        <a href="/webpages/payformess.html" class="links green">Pay for Mess</a>
+      </nav>
+  </header>
+
+  <div id="paysection">
+    <marquee behavior="scroll" direction="right" width="500px">
+      <h2>Welcome to payment portal</h2>
+    </marquee>
+      
+      <form name="form1" id="form1" action="/action_page.php">
+          <div>
+             <div> First Name<input type="text"> </div>
+             <div> Last Name<input type="text"> </div>
+             <div> Roll Number<input type="text"> <br></div>
+             Gender: <select name="subject" id="subject">
+              <option value="" selected="selected">Select gender</option>
+            </select>
+            <br><br>
+          Mess: <select name="topic" id="topic">
+              <option value="" selected="selected">Please select Mess first</option>
+            </select>
+            <br><br>
+          <!-- Days: <select name="chapter" id="chapter">
+              <option value="" selected="selected">Please select day first</option>
+            </select>
+            <br><br> -->
+            Day:<input type="date" name="" id=""><br><br>
+          Amount: <select name="chapter" id="chapter">
+              <option value="" selected="selected">Please select day first</option>
+            </select>
+            <br><br>
+  
+            <input type="submit" value="Proceed to Pay">
+        </div>
+
+        
+
+      </form>
+  </div>
+  <script src="/scripts/cascading.js"></script>
+  <script src="/scripts/time.js"></script>
+
+</body>
+</html>
