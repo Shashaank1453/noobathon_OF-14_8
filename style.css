@@ -84,8 +84,8 @@ body{
         margin:auto;
         font-family: 'Oswald', sans-serif;
         color: white;
-        margin-top: 100px;
-        font-size: 40px;
+        margin-top: 150px;
+        font-size: 70px;
      }
     body{
         display: flex;
@@ -93,27 +93,27 @@ body{
         align-items: center;
     }
     #linkbox{
-        /* text-align: center; */
+        text-align: center;
         display: flex;
         flex-direction: column;
         height: 200px;
         width: 200px;
-        margin: 125px 0 150px 15px;
+        margin: 250px 0 150px 15px;
         /* position: relative; */
         top: 0vh;
         left: 0vw;
     }
     .links{
-        margin: 5px;
+        margin: 15px;
         text-decoration: none;
         color: black;
         border-radius: 12px;
         text-align: center;
-        font-size: 35px;
+        font-size: 60px;
         overflow: visible;
         font-family: 'Oswald', sans-serif;
         opacity: 0.6;
-        padding: 10px 0;
+        padding: 20px 0;
         width: 90vw;
         
     }
