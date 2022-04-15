@@ -163,6 +163,7 @@ border-radius: 6px;
 
 }
 .foodimages{
+    box-shadow: 0 0 12px black; 
     display: inline;
     border-radius: 4px;
     height: 200px;
